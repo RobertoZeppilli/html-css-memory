@@ -34,7 +34,7 @@ body {
 /* boxes-container */
 .main-box {
     width: 45%;
-    height: 190px;
+    height: 180px;
     margin: 10px auto;
     padding: 20px;
 }
@@ -46,15 +46,15 @@ body {
 .box {
     float: left;
     height: 100%;
-    width: 22%;
-    margin: 1%;
-    background-color: #FFF;
+    width: calc(100% / 4 - 20px);
+    margin: 10px;
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
     border-radius: 10px;
     border: 1px solid lightgrey;
+    background-color: #FFF;
 }
 
 /* uncover */

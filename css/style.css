@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* coomon */
+/* common */
 body {
     font-family: 'Nerko One', cursive;
 }
@@ -13,9 +13,8 @@ body {
 /* container */
 .container {
     position: relative;
-    /* height: 700px; */
     width: 90%;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 10px;
     background-color: #87CCF1;
 }
@@ -35,7 +34,7 @@ body {
 /* boxes-container */
 .main-box {
     width: 45%;
-    height: 180px;
+    height: 190px;
     margin: 10px auto;
     padding: 20px;
 }
@@ -47,8 +46,8 @@ body {
 .box {
     float: left;
     height: 100%;
-    width: 21%;
-    margin: 2%;
+    width: 22%;
+    margin: 1%;
     background-color: #FFF;
     background-image: url(../img/pattern.png);
     background-size: contain;
@@ -69,7 +68,7 @@ body {
 .uncover-text {
     position: absolute;
     bottom: 1px;
-    left: 15px;
+    left: 20px;
     font-weight: bold;
     font-size: 20px;
     color: palevioletred;
@@ -105,7 +104,7 @@ body {
 }
 #bycicle .text {
     position: absolute;
-    left: 30px;
+    left: 35px;
     bottom: 1px;
     font-weight: bold;
     font-size: 20px;
@@ -149,7 +148,7 @@ body {
 }
 #tram .text {
     position: absolute;
-    left: 35px;
+    left: 40px;
     bottom: 1px;
     font-weight: bold;
     font-size: 20px;
@@ -171,7 +170,7 @@ body {
 }
 #ship .text {
     position: absolute;
-    left: 40px;
+    left: 45px;
     bottom: 1px;
     font-weight: bold;
     font-size: 20px;

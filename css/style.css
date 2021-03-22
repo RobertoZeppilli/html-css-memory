@@ -12,9 +12,11 @@ body {
 
 /* container */
 .container {
-    height: 700px;
-    width: 100%;
+    position: relative;
+    /* height: 700px; */
+    width: 90%;
     margin: 40px auto;
+    padding: 10px;
     background-color: #87CCF1;
 }
 
@@ -32,10 +34,15 @@ body {
 
 /* boxes-container */
 .main-box {
-    width: 40%;
+    width: 45%;
     height: 180px;
-    margin: 5px auto;
+    margin: 10px auto;
     padding: 20px;
+}
+.main-box::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 .box {
     float: left;
@@ -183,5 +190,8 @@ body {
 
 /* footer */
 .footer {
+    position: absolute;
+    bottom: 0;
+    right: 46%;
     text-align: center;
 }

@@ -8,8 +8,13 @@
 /* common */
 body {
     font-family: 'Nerko One', cursive;
+    text-align: center;
 }
 
+h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
 /* container */
 .container {
     position: relative;
@@ -45,7 +50,6 @@ body {
 }
 .box {
     float: left;
-    height: 100%;
     width: calc(100% / 4 - 20px);
     margin: 10px;
     background-image: url(../img/pattern.png);
@@ -56,141 +60,35 @@ body {
     border: 1px solid lightgrey;
     background-color: #FFF;
 }
-
-/* uncover */
-#uncover {
-    position: relative;
-    height: 100%;
-    background-image: url(../img/noun_air_balloon_3134741.png); 
-    background-repeat: no-repeat;
-    background-position: center 20%;
-}
-.uncover-text {
-    position: absolute;
-    bottom: 1px;
-    left: 20px;
-    font-weight: bold;
-    font-size: 20px;
-    color: palevioletred;
-}
-
-/* hover cards & text */
-
-/* tractor */
-#tractor {
-    position: relative;
-}
-#tractor .text {
-    position: absolute;
-    left: 30px;
-    bottom: 1px;
-    font-weight: bold;
-    font-size: 20px;
-    color: orange;
+.box img {
+    width: 100%;
+    padding: 10px;
     visibility: hidden;
-} 
-#tractor:hover {
-    background-image: url(../img/noun_Tractor_3134797.png);
-    background-repeat: no-repeat;
-    background-position: center 20%;
 }
-#tractor:hover .text {
-    visibility: visible;
+.box h3 {
+    visibility: hidden;
 }
-
-/* bycicle */
-#bycicle {
-    position: relative;
-}
-#bycicle .text {
-    position: absolute;
-    left: 35px;
-    bottom: 1px;
-    font-weight: bold;
-    font-size: 20px;
+.box.active {
+    background-image: none;
     color: red;
-    visibility: hidden;
 }
-#bycicle:hover {
-    background-image: url(../img/noun_Bicycle_3134821.png);
-    background-repeat: no-repeat;
-    background-position: center 20%;
-}
-#bycicle:hover .text {
+.box.active img,
+.box.active h3 {
     visibility: visible;
 }
 
-/* submarine */
-#submarine {
-    position: relative;
-}
-#submarine .text {
-    position: absolute;
-    left: 20px;
-    bottom: 1px;
-    font-weight: bold;
-    font-size: 20px;
-    color: blue;
-    visibility: hidden;
-}
-#submarine:hover {
-    background-image: url(../img/noun_Submarine_3134738.png);
-    background-repeat: no-repeat;
-    background-position: center 20%;
-}
-#submarine:hover .text {
-    visibility: visible;
+/* hover */
+.box:hover {
+    background-image: none;
 }
 
-/* tram */
-#tram {
-    position: relative;
-}
-#tram .text {
-    position: absolute;
-    left: 40px;
-    bottom: 1px;
-    font-weight: bold;
-    font-size: 20px;
-    color: green;
-    visibility: hidden;
-}
-#tram:hover {
-    background-image: url(../img/noun_Tram_3134750.png);
-    background-repeat: no-repeat;
-    background-position: center 20%;
-}
-#tram:hover .text {
+.box:hover img,
+.box:hover h3 {
     visibility: visible;
+    color: orange;  
 }
 
-/* ship */
-#ship {
-    position: relative;
-}
-#ship .text {
-    position: absolute;
-    left: 45px;
-    bottom: 1px;
-    font-weight: bold;
-    font-size: 20px;
-    color: mediumpurple;
-    visibility: hidden;
-}
-#ship:hover {
-    background-image: url(../img/noun_Cruise_Ship_3134824.png);
-    background-repeat: no-repeat;
-    background-position: center 20%;
-}
-#ship:hover .text {
-    visibility: visible;
-}
-/* /hover cards & text */
 
-/* footer */
-.footer {
-    position: absolute;
-    bottom: 0;
-    right: 46%;
-    text-align: center;
-}
+
+
+
